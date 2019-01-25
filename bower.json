@@ -1,0 +1,27 @@
+{
+  "name": "next-numeric",
+  "version": "0.0.1",
+  "description": "Numeric for next",
+  "main": "dist/next-numeric.js",
+  "authors": [
+    "afei"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "next"
+  ],
+  "homepage": "https://github.com/afeiship/next-numeric",
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src",
+    "build",
+    "gulpfile.js"
+  ]
+}
