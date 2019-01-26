@@ -7,6 +7,8 @@
     });
   };
 
+  // http://2ality.com/2012/07/large-integers.html
+  // https://github.com/rauschma/strint
   var NxNumeric = nx.declare('nx.Numeric', {
     statics: {
       compare: function(inNum1, inNum2) {
@@ -25,6 +27,11 @@
           return result / Math.abs(result);
         }
       },
+      lt: function() {},
+      gt: function() {},
+      le: function() {},
+      ge: function() {},
+      eq: function() {},
       add: function() {},
       sub: function() {},
       mul: function() {},
