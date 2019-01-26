@@ -1,10 +1,10 @@
 (function() {
-  var assert = require('assert');
   var nx = require('next-js-core2');
   var NxNumeric = require('../src/next-numeric');
 
   describe('NxNumeric.methods', function() {
     test('NxNumeric.compare length is equal', function() {
+      // 1099 `VS` 1110
       var num1 = '1001';
       var num2 = '1000';
       var num3 = '1005';
